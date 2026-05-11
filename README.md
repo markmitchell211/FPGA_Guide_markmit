@@ -1,3 +1,5 @@
+<img width="1826" height="1120" alt="image (1)" src="https://github.com/user-attachments/assets/ccffe25c-c228-48dc-a3fd-6e814c4f7322" />
+
 File Structure:
   - Instructions: Contains a brief instruction guide to get used to RedPitaya using their examples on the website.
   - Versions: Contains all working versions of the phase accumulator code. Currently contains a minimum working version without GUI
@@ -22,4 +24,4 @@ Version_1 Instructions:
 The signals V_Q and V_I proportional to sin and cos go into inputs IN1 and IN2 respectively. Output OUT1 carries the resulting sine wave.
 
 ******** NOTE: Version 1 Does Not Have Working GUI ********
-
+<img width="1065" height="320" alt="image" src="https://github.com/user-attachments/assets/a29f4b44-2da9-4f0e-b578-987a79d41254" />
