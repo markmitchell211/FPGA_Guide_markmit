@@ -17,7 +17,9 @@ Version_1 Instructions:
   - Now connect to your RedPitaya using the following command: ssh root@rp-xxxxxx.local              (Password by default is "root")
   - To make the c file executable in the linux terminal, run the following command: gcc phase_monitor.c -o phase_monitor -lm
   - Now everything is setup and ready to use. First we must run the bitstream with the following command: fpgautil -b version_1.bit.bin
-  - Now to use the c file, run: "./phase_monitor B M" replacing B and M with your own values for the Base Frequency and the Phase Multiplier.
+  - Now to use the c file, run: "./phase_monitor B M" replacing B and M with your own values for the Base Frequency and the Phase Multiplier. (Defaults B=30Mhz, M=0.191461667)
                 - The output is a +-1 Volt Sine Wave of the form:    sin(2*pi*B*t + M*phi) where phi is the measured phase offset.
 The signals V_Q and V_I proportional to sin and cos go into inputs IN1 and IN2 respectively. Output OUT1 carries the resulting sine wave.
+
+******** NOTE: CURRENT VERSION DOES NOT ALLOW FOR CHANGING 'M' in executing the c file (05/11/2026). ********
 
