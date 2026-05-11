@@ -21,5 +21,5 @@ Version_1 Instructions:
                 - The output is a +-1 Volt Sine Wave of the form:    sin(2*pi*B*t + M*phi) where phi is the measured phase offset.
 The signals V_Q and V_I proportional to sin and cos go into inputs IN1 and IN2 respectively. Output OUT1 carries the resulting sine wave.
 
-******** NOTE: CURRENT VERSION DOES NOT ALLOW FOR CHANGING 'M' in executing the c file (05/11/2026). ********
+******** NOTE: Version 1 Does Not Have Working GUI ********
 
